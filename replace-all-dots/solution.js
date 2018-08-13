@@ -1,3 +1,5 @@
+'use strict';
+
 var replaceDots = function(str) {
-  return str.replace(/./, '-');
+  return str.replace(/\./, '-');
 }
